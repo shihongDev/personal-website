@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Charter:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-text-primary font-serif leading-relaxed tracking-tight;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium;
+  }
+  
+  a {
+    @apply text-accent transition-colors duration-200;
+  }
+  
+  a:hover {
+    @apply underline;
+  }
+}
+
+@layer components {
+  .container-readable {
+    @apply max-w-readable mx-auto px-mobile-margin lg:px-desktop-margin;
+  }
+  
+  .section-spacing {
+    @apply py-section;
+  }
+  
+  .component-spacing {
+    @apply space-y-component;
+  }
+} 
