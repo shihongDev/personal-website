@@ -27,11 +27,11 @@ export default function Blog() {
     <section id="blog" className="min-h-section section-spacing">
       <div className="container-readable">
         <div className="component-spacing">
-          <h2 className="text-2xl md:text-section font-medium text-text-primary">
+          <h2 className="section-title">
             Recent Writing
           </h2>
           
-          <div className="space-y-8">
+          <div className="section-content space-y-8">
             {blogPosts.map((post, index) => (
               <article key={index} className="border-b border-border pb-8 last:border-b-0">
                 <div className="space-y-3">

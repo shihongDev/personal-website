@@ -3,6 +3,8 @@ export default function Hero() {
     <section id="hero" className="min-h-screen flex items-center">
       <div className="container-readable w-full">
         <div className="space-y-8 md:space-y-12">
+          {/* Section Title */}
+          
           {/* Name and Title */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl lg:text-hero font-medium text-text-primary leading-tight tracking-tight">

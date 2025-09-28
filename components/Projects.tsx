@@ -34,11 +34,11 @@ export default function Projects() {
     <section id="projects" className="min-h-section section-spacing">
       <div className="container-readable">
         <div className="component-spacing">
-          <h2 className="text-2xl md:text-section font-medium text-text-primary">
+          <h2 className="section-title">
             Selected Projects
           </h2>
           
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="section-content grid gap-8 md:grid-cols-2">
             {projects.map((project, index) => (
               <div key={index} className="border border-border rounded-lg p-6 hover:border-text-tertiary transition-colors">
                 <div className="space-y-4">

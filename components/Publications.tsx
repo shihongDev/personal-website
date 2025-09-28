@@ -22,11 +22,11 @@ export default function Publications() {
     <section id="publications" className="min-h-section section-spacing">
       <div className="container-readable">
         <div className="component-spacing">
-          <h2 className="text-2xl md:text-section font-medium text-text-primary">
+          <h2 className="section-title">
             Publications
           </h2>
           
-          <div className="space-y-6">
+          <div className="section-content">
             {publications.map((pub, index) => (
               <div key={index} className="border-l-2 border-border pl-4">
                 <div className="space-y-2">

@@ -35,7 +35,7 @@ module.exports = {
         'tight': '-0.01em',
       },
       maxWidth: {
-        'readable': '768px',
+        'readable': '960px',
       },
       spacing: {
         'section': '80px',

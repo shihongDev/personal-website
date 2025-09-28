@@ -30,7 +30,7 @@
 
 @layer components {
   .container-readable {
-    @apply max-w-readable mx-auto px-mobile-margin lg:px-desktop-margin;
+    @apply max-w-readable mx-auto px-4 lg:px-8;
   }
   
   .section-spacing {
@@ -39,5 +39,25 @@
   
   .component-spacing {
     @apply space-y-component;
+  }
+  
+  .section-title {
+    @apply text-2xl md:text-section font-medium text-text-primary mb-8 relative;
+  }
+  
+  .section-title::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 60%;
+    background: linear-gradient(to bottom, #000000, #333333);
+    border-radius: 2px;
+  }
+  
+  .section-content {
+    @apply space-y-6;
   }
 } 

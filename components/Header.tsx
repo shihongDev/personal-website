@@ -40,24 +40,7 @@ export default function Header() {
           </button>
           
           <nav className="hidden md:flex space-x-8">
-            <button 
-              onClick={() => scrollToSection('about')}
-              className="text-sm text-text-secondary hover:text-text-primary transition-colors"
-            >
-              About
-            </button>
-            <button 
-              onClick={() => scrollToSection('experience')}
-              className="text-sm text-text-secondary hover:text-text-primary transition-colors"
-            >
-              Work
-            </button>
-            <button 
-              onClick={() => scrollToSection('education')}
-              className="text-sm text-text-secondary hover:text-text-primary transition-colors"
-            >
-              Education
-            </button>
+   
             <button 
               onClick={() => scrollToSection('publications')}
               className="text-sm text-text-secondary hover:text-text-primary transition-colors"
@@ -80,18 +63,6 @@ export default function Header() {
 
           {/* Mobile Navigation */}
           <nav className="md:hidden flex space-x-4">
-            <button 
-              onClick={() => scrollToSection('about')}
-              className="text-xs text-text-secondary hover:text-text-primary transition-colors"
-            >
-              About
-            </button>
-            <button 
-              onClick={() => scrollToSection('experience')}
-              className="text-xs text-text-secondary hover:text-text-primary transition-colors"
-            >
-              Work
-            </button>
             <button 
               onClick={() => scrollToSection('projects')}
               className="text-xs text-text-secondary hover:text-text-primary transition-colors"
