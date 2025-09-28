@@ -5,7 +5,11 @@ export const metadata = {
   description: 'Machine Learning Engineer at Amazon and researcher specializing in computer vision, LLMs, and AI systems.',
   keywords: ['machine learning', 'computer vision', 'AI', 'research', 'Amazon', 'Carnegie Mellon'],
   authors: [{ name: 'Shihong Liu' }],
-  viewport: 'width=device-width, initial-scale=1',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({

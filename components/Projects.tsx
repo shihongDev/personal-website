@@ -94,11 +94,6 @@ export default function Projects() {
             ))}
           </div>
           
-          <div className="pt-8">
-            <p className="text-accent font-medium">
-              More projects available on request →
-            </p>
-          </div>
         </div>
       </div>
     </section>
